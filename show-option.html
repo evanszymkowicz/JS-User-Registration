@@ -1,0 +1,38 @@
+!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>The User Experience</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<div class="container login">
+  <form id="how-heard" action="/heard" method="post">
+    <div class="one-third column">
+      <img src="img/logo.png" alt="logo" id="logo" />
+    </div>
+    <div class="two-thirds column" id="main">
+      <fieldset>
+        <legend>How did you hear about us?</legend>
+
+        <input type="radio" name="heard" value="search" id="search" />
+        <label for="search">Web search</label><br>
+
+        <input type="radio" name="heard" value="print" id="print" />
+        <label for="print">Newspaper or magazine</label><br>
+
+        <input type="radio" name="heard" value="other" id="other" />
+        <label for="other">Other</label><br>
+        <input type="text" name="other-input" id="other-text" />
+
+        <input id="submit" type="submit" value="submit" />
+      </fieldset>
+    </div>
+  </form>
+</div>
+<script src="js/utilities.js"></script>
+<script src="js/show-option.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>The User Experience</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <div class="container login">
+    <form id="interests" action="/login" method="post">
+      <div class="one-third column">
+        <img src="img/logo.png" alt="logo" id="logo" />
+      </div>
+      <div class="two-thirds column" id="main">
+        <fieldset>
+          <legend>Genres</legend>
+          <label><input type="checkbox" value="all" id="all">All</label>
+          <label><input type="checkbox" name="genre" value="animation">Animation</label>
+          <label><input type="checkbox" name="genre" value="docs">Documentaries</label>
+          <label><input type="checkbox" name="genre" value="shorts">Shorts</label>
+        </fieldset>
+      </div>
+    </form>
+  </div>
+  <script src="js/utilities.js"></script>
+  <script src="js/all-checkboxes.js"></script>
+</body>
+
+</html>
