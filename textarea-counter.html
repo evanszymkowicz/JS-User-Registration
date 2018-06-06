@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>The User Experience</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <div class="container login">
+      <form name="howHeard" id="howHeard" action="/heard" method="post">
+        <div class="one-third column">
+          <img src="img/logo.png" alt="logo" id="logo" />
+        </div>
+        <div class="two-thirds column" id="main">
+          <fieldset>
+            <legend>Profile</legend>
+            <label for="bio">Short Bio (up to 140 characters)</label>
+            <textarea name="bio" id="bio" rows="5" cols="30"></textarea>
+            <span id="bio-count" class="hide"></span>
+          </fieldset>
+        </div>
+      </form>
+    </div>
+    <script src="js/utilities.js"></script>
+    <script src="js/textarea-counter.js"></script>
+  </body>
+</html>
